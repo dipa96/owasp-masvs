@@ -8,3 +8,4 @@
 - [Korean](Document-ko/)
 - [Russian](Document-ru/)
 - [Traditional Chinese](Document-zhtw/)
+- [Italian](Document-it/)
