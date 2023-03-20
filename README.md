@@ -103,6 +103,7 @@ The MASVS is available in different languages:
 - [Spanish](https://github.com/OWASP/owasp-masvs/tree/master/Document-es "Spanish")
 - [Turkish](https://github.com/OWASP/owasp-masvs/tree/master/Document-tr "Turkish")
 - [Greek](https://github.com/OWASP/owasp-masvs/tree/master/Document-gr "Greek")
+- [Italian](https://github.com/OWASP/owasp-masvs/tree/master/Document-it "Italian")
 
 ## Other Formats
 
