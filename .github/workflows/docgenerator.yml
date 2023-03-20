@@ -122,6 +122,14 @@ jobs:
       lang: zhtw
       pandocker-tag: TAG=latest-ubuntu-full
 
+  it:
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@master
+    with:
+      folder: Document-it
+      language: Italian
+      lang: it
+      pandocker-tag: TAG=latest-ubuntu-full
+
   export:
     runs-on: ubuntu-latest
     steps:
