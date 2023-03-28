@@ -1,4 +1,4 @@
-# V2: Requisiti per l'archiviazione dei Dati e la Privacy
+# V2: Requisiti per la Privace e l'archiviazione dei Dati
 
 ## Obiettivo della Sezione
 
@@ -6,7 +6,7 @@ La protezione dei dati sensibili, come le credenziali dell'utente e le informazi
 
 Si noti che, essendo il MASVS incentrato sulle applicazioni, non copre le politiche a livello di dispositivo, come quelle applicate dalle soluzioni MDM. Incoraggiamo l'uso di tali politiche in un contesto aziendale per migliorare ulteriormente la sicurezza dei dati.
 
-### La definizione dei Dati Sensibili
+### La definizione di Dati Sensibili
 
 I dati sensibili nel contesto del MASVS si riferiscono sia alle credenziali dell'utente che a qualsiasi altro dato considerato sensibile nel contesto specifico, come ad esempio:
 
