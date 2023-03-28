@@ -2,33 +2,33 @@
 
 ## Control Objective
 
-In a perfect world, security would be considered throughout all phases of development. In reality however, security is often only a consideration at a late stage in the SDLC. Besides the technical controls, the MASVS requires processes to be in place that ensure that the security has been explicitly addressed when planning the architecture of the mobile app, and that the functional and security roles of all components are known. Since most mobile applications act as clients to remote services, it must be ensured that appropriate security standards are also applied to those services - testing the mobile app in isolation is not sufficient.
+In un mondo perfetto, la sicurezza verrebbe considerata in tutte le fasi dello sviluppo. In realtà, però, la sicurezza viene spesso presa in considerazione solo in una fase avanzata dell'SDLC. Oltre ai controlli tecnici, il MASVS richiede l'attuazione di processi che garantiscano che la sicurezza sia stata esplicitamente affrontata durante la pianificazione dell'architettura dell'applicazione mobile e che siano noti i ruoli funzionali e di sicurezza di tutti i componenti. Poiché la maggior parte delle applicazioni mobili agisce come client di servizi remoti, è necessario garantire che gli standard di sicurezza appropriati siano applicati anche a tali servizi: testare l'applicazione mobile in modo isolato non è sufficiente.
 
-**The category “V1” lists requirements pertaining to architecture and design of the app. As such, this is the only category that does not map to technical test cases in the OWASP Mobile Application Security Testing Guide. To cover topics such as threat modelling, secure SDLC or key management, users of the MASVS should consult the respective OWASP projects and/or other standards such as the ones linked below.**
+**La categoria "V1" elenca i requisiti relativi all'architettura e alla progettazione dell'applicazione. In quanto tale, questa è l'unica categoria che non corrisponde a casi di test tecnici nella OWASP Mobile Application Security Testing Guide. Per coprire argomenti come la threat modelling, Secure SDLC o la gestione delle chiavi, gli utenti del MASVS dovrebbero consultare i rispettivi progetti OWASP e/o altri standard, come quelli linkati di seguito.**
 
-## Security Verification Requirements
+## Requisiti per la Verifica di Sicurezza
 
-The requirements for MASVS-L1 and MASVS-L2 are listed below.
+I requisiti per MASVS-L1 e MASVS-L2 sono elencati di seguito.
 
 | # | MSTG-ID | Description | L1 | L2 |
 | -- | ---------- | ---------------------- | - | - |
-| **1.1** | MSTG-ARCH-1 | All app components are identified and known to be needed. | x | x |
-| **1.2** | MSTG-ARCH-2 | Security controls are never enforced only on the client side, but on the respective remote endpoints. | x | x |
-| **1.3** | MSTG-ARCH-3 | A high-level architecture for the mobile app and all connected remote services has been defined and security has been addressed in that architecture. | x | x |
-| **1.4** | MSTG-ARCH-4 | Data considered sensitive in the context of the mobile app is clearly identified. | x | x |
-| **1.5** | MSTG-ARCH-5 | All app components are defined in terms of the business functions and/or security functions they provide. |  | x |
-| **1.6** | MSTG-ARCH-6 | A threat model for the mobile app and the associated remote services has been produced that identifies potential threats and countermeasures. |  | x |
-| **1.7** | MSTG-ARCH-7 | All security controls have a centralized implementation. |  | x |
-| **1.8** | MSTG-ARCH-8 | There is an explicit policy for how cryptographic keys (if any) are managed, and the lifecycle of cryptographic keys is enforced. Ideally, follow a key management standard such as NIST SP 800-57. |  | x |
-| **1.9** | MSTG-ARCH-9 | A mechanism for enforcing updates of the mobile app exists. |  | x |
-| **1.10** | MSTG-ARCH-10 | Security is addressed within all parts of the software development lifecycle. |  | x |
-| **1.11** | MSTG-ARCH-11 | A responsible disclosure policy is in place and effectively applied. |  | x |
-| **1.12** | MSTG-ARCH-12 | The app should comply with privacy laws and regulations. | x | x |
+| **1.1** | MSTG-ARCH-1 | Tutti i componenti dell'applicazione sono identificati e sono ritenuti necessari. | x | x |
+| **1.2** | MSTG-ARCH-2 | I controlli di sicurezza non vengono mai applicati solo sul lato client, ma anche sui rispettivi endpoint remoti. | x | x |
+| **1.3** | MSTG-ARCH-3 | È stata definita un'architettura di alto livello per l'applicazione mobile e per tutti i servizi remoti collegati e la sicurezza è stata affrontata in tale architettura. | x | x |
+| **1.4** | MSTG-ARCH-4 | I dati considerati sensibili nel contesto dell'applicazione mobile sono chiaramente identificati. | x | x |
+| **1.5** | MSTG-ARCH-5 | Tutti i componenti dell'applicazione sono definiti in termini di funzioni aziendali e/o di sicurezza che forniscono. |  | x |
+| **1.6** | MSTG-ARCH-6 | È stato prodotto un threat model per l'applicazione mobile e i servizi remoti associati che identifica le potenziali minacce e le contromisure. |  | x |
+| **1.7** | MSTG-ARCH-7 | Tutti i controlli di sicurezza hanno un'implementazione centralizzata. |  | x |
+| **1.8** | MSTG-ARCH-8 | Esiste una politica esplicita per la gestione delle chiavi crittografiche (se presenti) e il ciclo di vita delle chiavi crittografiche. L'ideale sarebbe seguire uno standard di gestione delle chiavi come il NIST SP 800-57. |  | x |
+| **1.9** | MSTG-ARCH-9 | Esiste un meccanismo per imporre gli aggiornamenti dell'applicazione mobile. |  | x |
+| **1.10** | MSTG-ARCH-10 | La sicurezza viene affrontata in tutte le fasi del ciclo di vita dello sviluppo del software.|  | x |
+| **1.11** | MSTG-ARCH-11 | Esiste e viene applicata efficacemente una politica di divulgazione responsabile. |  | x |
+| **1.12** | MSTG-ARCH-12 | L'applicazione deve essere conforme alle leggi e ai regolamenti sulla privacy. | x | x |
 
 <!-- \pagebreak -->
-## References
+## Riferimenti
 
-For more information, see also:
+Per ulteriori informazioni, si veda anche:
 
 - OWASP Mobile Top 10: M10 (Extraneous Functionality) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m10-extraneous-functionality>
 - OWASP Threat modelling - <https://owasp.org/www-community/Application_Threat_Modeling>
