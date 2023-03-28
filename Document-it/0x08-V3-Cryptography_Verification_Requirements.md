@@ -1,12 +1,12 @@
 # V3: Requisiti per la crittografia
 
-## Control Objective
+## Obiettivo della Sezione
 
-La crittografia è un componente essenziale quando si tratta di proteggere i dati memorizzati su un dispositivo mobile. È anche una materia dove le cose possono andare terribilmente male, soprattutto quando non si seguono le convenzioni standard. Lo scopo dei controlli di questo capitolo è garantire che l'applicazione verificata utilizzi la crittografia secondo le migliori pratiche del settore, tra cui:
+La crittografia è una componente essenziale quando si tratta di proteggere i dati memorizzati su un dispositivo mobile. È anche una materia dove le cose possono andare terribilmente male, soprattutto quando non si seguono le convenzioni standard. Lo scopo dei controlli di questo capitolo è garantire che l'applicazione verificata utilizzi la crittografia secondo le migliori pratiche del settore, tra cui:
 
 - Uso di librerie crittografiche comprovate;
 - Scelta e configurazione corretta delle primitive crittografiche;
-- un generatore di numeri casuali adeguato quando è richiesta casualità.
+- Un generatore di numeri casuali adeguato quando è richiesta casualità.
 
 ## Requisiti per la Verifica di Sicurezza
 

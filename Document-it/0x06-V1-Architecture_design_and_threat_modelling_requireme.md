@@ -1,6 +1,6 @@
 # V1: Architecture, Design and Threat Modeling Requirements
 
-## Control Objective
+## Obiettivo della Sezione
 
 In un mondo perfetto, la sicurezza verrebbe considerata in tutte le fasi dello sviluppo. In realtà, però, la sicurezza viene spesso presa in considerazione solo in una fase avanzata dell'SDLC. Oltre ai controlli tecnici, il MASVS richiede l'attuazione di processi che garantiscano che la sicurezza sia stata esplicitamente affrontata durante la pianificazione dell'architettura dell'applicazione mobile e che siano noti i ruoli funzionali e di sicurezza di tutti i componenti. Poiché la maggior parte delle applicazioni mobili agisce come client di servizi remoti, è necessario garantire che gli standard di sicurezza appropriati siano applicati anche a tali servizi: testare l'applicazione mobile in modo isolato non è sufficiente.
 

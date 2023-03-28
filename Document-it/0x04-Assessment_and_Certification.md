@@ -20,13 +20,13 @@ L'organismo di certificazione deve includere in qualsiasi rapporto l'ambito dell
 
 L'OWASP MASTG è un manuale per testare la sicurezza delle applicazioni mobili. Descrive i processi tecnici per la verifica dei requisiti elencati nel MASVS. Il MASTG comprende un elenco di casi d'uso, ognuno dei quali corrisponde a un requisito del MASVS. Mentre i requisiti del MASVS sono di alto livello e generici, il MASTG fornisce raccomandazioni approfondite e procedure di test su base mobile.
 
-### The Role of Automated Security Testing Tools
+### Il ruolo degli Strumenti di Sicurezza Automatizzati
 
 The use of source code scanners and black-box testing tools is encouraged in order to increase efficiency whenever possible. It is however not possible to complete MASVS verification using automated tools alone: Every mobile app is different, and understanding the overall architecture, business logic, and technical pitfalls of the specific technologies and frameworks being used, is a mandatory requirement to verify security of the app.
 
 ## Altri utilizzi
 
-### As Detailed Security Architecture Guidance
+### Come Guida Dettagliata dell'Architettura di Sicurezza
 
 Uno degli usi più comuni del Mobile Application Security Verification Standard è quello di risorsa per gli architetti della sicurezza. I due principali framework di architettura di sicurezza, SABSA o TOGAF, mancano di molte informazioni necessarie per completare le revisioni dell'architettura di sicurezza delle applicazioni mobili. Il MASVS può essere utilizzato per colmare queste lacune, consentendo agli architetti della sicurezza di scegliere controlli migliori per i problemi comuni alle applicazioni mobili.
 
@@ -38,9 +38,9 @@ Molte organizzazioni possono trarre vantaggio dall'adozione del MASVS, scegliend
 
 Una buona metodologia di verifica di sicurezza delle applicazioni mobili deve coprire tutti i requisiti elencati nel MASVS. La Mobile Application Security Testing Guide (MASTG) di OWASP descrive i casi di test black-box e white-box per ogni requisito di verifica.
 
-### As a Guide for Automated Unit and Integration Tests
+### Come guida per Test Unità e Integrazione Automatizzati
 
-The MASVS is designed to be highly testable, with the sole exception of architectural requirements. Automated unit, integration and acceptance testing based on the MASVS requirements can be integrated in the continuous development lifecycle. This not only increases developer security awareness, but also improves the overall quality of the resulting apps, and reduces the amount of findings during security testing in the pre-release phase.
+Il MASVS è progettato per essere altamente testabile, con la sola eccezione dei requisiti architetturali. I test automatici di unità, integrazione e accettazione basati sui requisiti del MASVS possono essere integrati nel ciclo di vita del "continuous development lifecycle". Questo non solo aumenta la consapevolezza della sicurezza da parte degli sviluppatori, ma migliora anche la qualità complessiva delle applicazioni risultanti e riduce la quantità di risultati durante i test di sicurezza nella fase di pre-rilascio.
 
 ### Per la formazione sullo sviluppo sicuro
 

@@ -1,6 +1,6 @@
 # V2: Requisiti per l'archiviazione dei Dati e la Privacy
 
-## Control Objective
+## Obiettivo della Sezione
 
 La protezione dei dati sensibili, come le credenziali dell'utente e le informazioni private, è un aspetto fondamentale della sicurezza mobile. In primo luogo, i dati sensibili possono essere involontariamente esposti ad altre applicazioni in esecuzione sullo stesso dispositivo se i meccanismi del sistema operativo, come l'IPC, vengono utilizzati in modo improprio. I dati possono anche trapelare involontariamente nel cloud storage, nei backup o nella cache della tastiera. Inoltre, i dispositivi mobili possono essere smarriti o rubati più facilmente rispetto ad altri tipi di dispositivi, quindi l'accesso fisico da parte di un avversario è uno scenario più probabile. In questo caso, è possibile implementare ulteriori protezioni per rendere più difficile il recupero dei dati sensibili.
 
