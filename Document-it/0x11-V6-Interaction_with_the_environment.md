@@ -1,33 +1,33 @@
-# V6: Platform Interaction Requirements
+# V6: Requisiti di Interazione con la Piattaforma
 
-## Control Objective
+## Obiettivo della Sezione
 
-The controls in this group ensure that the app uses platform APIs and standard components in a secure manner. Additionally, the controls cover communication between apps (IPC).
+I controlli di questo gruppo garantiscono che l'applicazione utilizzi le API della piattaforma e i componenti standard in modo sicuro. Inoltre, i controlli comprendono anche le comunicazioni tra le applicazioni (IPC).
 
-## Security Verification Requirements
+## Requisiti per la Verifica di Sicurezza
 
 | # | MSTG-ID | Description | L1 | L2 |
 | -- | ---------- | ---------------------- | - | - |
-| **6.1** | MSTG-PLATFORM-1 | The app only requests the minimum set of permissions necessary. | x | x |
-| **6.2** | MSTG-PLATFORM-2 | All inputs from external sources and the user are validated and if necessary sanitized. This includes data received via the UI, IPC mechanisms such as intents, custom URLs, and network sources.| x | x |
-| **6.3** | MSTG-PLATFORM-3 | The app does not export sensitive functionality via custom URL schemes, unless these mechanisms are properly protected. | x | x |
-| **6.4** | MSTG-PLATFORM-4 | The app does not export sensitive functionality through IPC facilities, unless these mechanisms are properly protected. | x | x |
-| **6.5** | MSTG-PLATFORM-5 | JavaScript is disabled in WebViews unless explicitly required. | x | x |
-| **6.6** | MSTG-PLATFORM-6 | WebViews are configured to allow only the minimum set of protocol handlers required (ideally, only https is supported). Potentially dangerous handlers, such as file, tel and app-id, are disabled. | x | x |
-| **6.7** | MSTG-PLATFORM-7 | If native methods of the app are exposed to a WebView, verify that the WebView only renders JavaScript contained within the app package. | x | x |
-| **6.8** | MSTG-PLATFORM-8 | Object deserialization, if any, is implemented using safe serialization APIs. | x | x |
-| **6.9** | MSTG-PLATFORM-9 | The app protects itself against screen overlay attacks. (Android only) |  | x |
-| **6.10** | MSTG-PLATFORM-10 | A WebView's cache, storage, and loaded resources (JavaScript, etc.) should be cleared before the WebView is destroyed. |  | x |
-| **6.11** | MSTG-PLATFORM-11 | Verify that the app prevents usage of custom third-party keyboards whenever sensitive data is entered (iOS only). | | x |
+| **6.1** | MSTG-PLATFORM-1 | L'applicazione richiede solo il set minimo di autorizzazioni necessarie. | x | x |
+| **6.2** | MSTG-PLATFORM-2 | Tutti gli input provenienti da fonti esterne e dall'utente vengono convalidati e, se necessario, sanitizzati. Ciò include i dati ricevuti tramite l'interfaccia utente, i meccanismi IPC come gli intent, gli URL personalizzati e le risorse di rete. | x | x |
+| **6.3** | MSTG-PLATFORM-3 | L'applicazione non esporta funzionalità sensibili tramite schemi di URL personalizzati, a meno che questi meccanismi non siano adeguatamente protetti. | x | x |
+| **6.4** | MSTG-PLATFORM-4 | L'applicazione non esporta funzionalità sensibili attraverso strutture IPC, a meno che questi meccanismi non siano adeguatamente protetti. | x | x |
+| **6.5** | MSTG-PLATFORM-5 | JavaScript è disabilitato nelle WebView, a meno che non sia esplicitamente richiesto. | x | x |
+| **6.6** | MSTG-PLATFORM-6 | Le WebView sono configurate in modo da consentire solo il set minimo di handler di protocollo richiesti (idealmente, è supportato solo https). Gli handler potenzialmente pericolosi, come file, tel e app-id, sono disabilitati. | x | x |
+| **6.7** | MSTG-PLATFORM-7 | Se i metodi nativi dell'applicazione sono esposti a una WebView, verificare che la WebView esegua solo il rendering di JavaScript contenuto nel pacchetto dell'applicazione. | x | x |
+| **6.8** | MSTG-PLATFORM-8 | La deserializzazione degli oggetti, se presente, è implementata utilizzando API di serializzazione sicure. | x | x |
+| **6.9** | MSTG-PLATFORM-9 | L'applicazione si protegge dagli attacchi di overlay dello schermo. (Solo Android) |  | x |
+| **6.10** | MSTG-PLATFORM-10 | La cache, la memoria e le risorse utilizzate (JavaScript, ecc.) di una WebView devono essere cancellate prima che la WebView venga distrutta. |  | x |
+| **6.11** | MSTG-PLATFORM-11 | Verificare che l'applicazione impedisca l'uso di tastiere personalizzate di terze parti ogni volta che vengono immessi dati sensibili (solo iOS). | | x |
 
-## References
+## Riferimenti
 
-The OWASP Mobile Application Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
+La OWASP Mobile Application Security Testing Guide fornisce istruzioni dettagliate per la verifica dei requisiti elencati in questa sezione.
 
 - Android: Testing Platform Interaction - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05h-Testing-Platform-Interaction.md>
 - iOS: Testing Platform Interaction - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06h-Testing-Platform-Interaction.md>
 
-For more information, see also:
+Per ulteriori informazioni, vedere anche:
 
 - OWASP Mobile Top 10: M1 (Improper Platform Usage) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m1-improper-platform-usage>
 - OWASP Mobile Top 10: M7 (Poor Code Quality) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m7-client-code-quality>
